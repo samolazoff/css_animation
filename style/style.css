@@ -1,0 +1,50 @@
+/* clock */
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border-style: solid;
+    background-color:yellow;
+}
+.tbl{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    background-color:white;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.III-IX{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.arrow{
+    margin: 30px;
+    position: absolute;
+    width: 3px;
+    height: 70px;
+    transition: transform 60s linear;
+    transform-origin: center 100%;
+}
+.rd{
+    background-color: red;
+}
+.clock:hover .arrow{
+    transform: rotate(360deg);
+}
+.clock:hover .tbl{
+
+}
